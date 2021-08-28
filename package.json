@@ -1,6 +1,23 @@
-"scripts": {
-        "frontend:install": "cd reactnd-contacts-complete && npm install",
+{
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend:install": "cd reactnd-contacts-complete && npm install",
         "backend:install": "cd reactnd-contacts-server && npm install",
         "frontend:build": "cd reactnd-contacts-complete && npm run build",
         "backend:build": "cd reactnd-contacts-server && npm run build"
-    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anku580/Hosting-a-full-stack-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anku580/Hosting-a-full-stack-application/issues"
+  },
+  "homepage": "https://github.com/anku580/Hosting-a-full-stack-application#readme"
+}
