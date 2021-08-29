@@ -19,9 +19,9 @@ jobs:
           command: |
             npm run backend:install
       - run:
-          name: Front-End Build
+          name: Install AWS dependencies
           command: |
-            npm run frontend:build
+            sudo pip install awsebcli
       - run:
           name: Front-End test cases
           command: |
@@ -30,6 +30,10 @@ jobs:
           name: Back-End test cases
           command: |
             npm run backend:test
+      - run:
+          name: Front-End Build
+          command: |
+            npm run frontend:build
       - run:
           name: Back-End Build
           command: |
