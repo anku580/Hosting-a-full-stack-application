@@ -1,0 +1,19 @@
+branch-defaults:
+  lesson-2-exercise-1:
+    environment: workspace-dev
+environment-defaults:
+  workspace-dev:
+    branch: null
+    repository: null
+global:
+  application_name: workspace
+  default_ec2_keyname: vockey
+  default_platform: Node.js 14 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: git
+  workspace_type: Application
