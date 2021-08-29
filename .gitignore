@@ -5,3 +5,5 @@
 !.elasticbeanstalk/*.global.yml
 aws-elastic-beanstalk-cli-setup
 .ipynb_checkpoints
+reactnd-contacts-complete/node_modules
+reactnd-contacts-server/node_modules
