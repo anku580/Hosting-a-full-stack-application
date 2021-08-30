@@ -1,8 +1,4 @@
 
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
 aws-elastic-beanstalk-cli-setup
 .ipynb_checkpoints
 reactnd-contacts-complete/node_modules
