@@ -15,7 +15,7 @@ jobs:
           command: |
             sudo apt update
             sudo apt install python3-pip python-dev
-      	    sudo pip install awsebcli
+            sudo pip install awsebcli
       - run:
           name: Front-End Install
           command: |
