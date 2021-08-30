@@ -1,6 +1,6 @@
 branch-defaults:
   lesson-2-exercise-1:
-    environment: workspace-dev
+    environment: workspace-dev2
 environment-defaults:
   workspace-dev:
     branch: null
